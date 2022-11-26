@@ -3,7 +3,7 @@ name: checkin-cnn
 on:
   workflow_dispatch:
   schedule:
-    - cron: '00 13 * * *' #6 pm Pacific 
+    - cron: '0 17 * * 1-5' #9am pst weekdays
 
 jobs:
   build:
